@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    max-width: 1200px;
+    margin: 30px auto;
+    text-align: right;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    color: #555;
+    padding: 10px;
+    margin: 0 20px;
+}
+
+nav a.register {
+    font-size: 2.2rem;
+    border: 2px solid #555;
+    padding: 10px 30px;
+    letter-spacing: 1px;
+    margin-right: 50px;
+    margin-left: 80px;
+    transition: .2s;
+
+}
+
+nav a:hover {
+    border-bottom: 2px solid #555;
+    color: #000;
+}
+
+nav a.register:hover {
+    background-color: royalblue;
+    color: #eee;
+    border-color: royalblue;
+
+}
+
+html {
+    font-size: 10px;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+header {
+    height: 40vh;
+    background-image: url(corvette-3864797_1280.jpg);
+    background-size: cover;
+}
+
+header h1 {
+    font-size: 6rem;
+    color: white;
+    text-align: center;
+    line-height: 40vh;
+    background-color: rgba(0,0,0,50%);
+}
+
+footer {
+    background-color: #000000;
+
+}
+
+footer p {
+    color: #fff;
+    text-align: center;
+    padding: 2reml 0;
+    font-size: 2rem;
+
+}
